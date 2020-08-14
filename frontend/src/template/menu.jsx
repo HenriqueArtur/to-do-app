@@ -10,10 +10,10 @@ export default props => (
 
         <ul className='nav'>
             <li className='nav-item'>
-                <a className='nav-link navbar-brand' href="/tarefas">Tarefas</a>
+                <a className='nav-link navbar-brand' href="#/todos">Tarefas</a>
             </li>
             <li className='nav-item'>
-                <a className='nav-link navbar-brand' href="/about">Sobre</a>
+                <a className='nav-link navbar-brand' href="#/about">Sobre</a>
             </li>
         </ul>
     </nav>
