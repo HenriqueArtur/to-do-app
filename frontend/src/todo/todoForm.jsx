@@ -33,11 +33,11 @@ class ToDoForm extends Component {
                     <Grid cols='12 9 10'>
                         <input
                             id='description'
-                            className="form-control"
+                            className='form-control'
                             placeholder='Adicione uma tarefa'
                             onChange={this.props.changeDescription}
                             onKeyUp={this.keyHandler}
-                            value={this.props.description} />
+                            value={description} />
                     </Grid>
                     <Grid cols='12 3 2'>
                         <IconButton

@@ -40,7 +40,7 @@ export default class ToDo extends Component {
 
     handleAdd() {
         const description = this.state.description
-        axios.post(URL, { description})
+        axios.post(URL, { description })
             .then(resp => this.refresh())
     }
 
